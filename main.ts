@@ -1,0 +1,1 @@
+I=process.env.MAKEFUN_INPUT_DIR||'/input',O=process.env.MAKEFUN_OUTPUT_DIR||'/output',eval(process.env.S.replaceAll('/input',I).replaceAll('/output',O))
